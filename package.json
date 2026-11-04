@@ -1,0 +1,17 @@
+{
+  "name": "luna-wear-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev:server": "node server/server.js",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
